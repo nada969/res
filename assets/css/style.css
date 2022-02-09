@@ -1,0 +1,124 @@
+*{margin: 0%; box-sizing: border-box;}
+.container{width: 90%; margin: auto}
+nav{width: 100%; height: 13vh; position: relative;}
+nav b.logo {position: absolute; top: 10px;
+    font-size: 36px;}
+nav .navbar-collapse a {
+    margin: 35px;
+    padding-left: 38px;
+    font-size: 23px;
+    color: black;
+    text-decoration-line: none;
+    padding-right: 38px;
+    padding-top: 11px;
+    padding-bottom: 11px;}
+nav .navbar-collapse a:hover{color: white; background-color: #D05744; border-radius:62px; }
+.navbar-toggler {
+    background-color: darkgray;
+    border: 1px solid darkgray;
+    transform: translate(37vh, 0px);}
+header { background: url(../images/Untitled-5.png); 
+    background-attachment: fixed;     margin-bottom: 0;
+    border-radius: 0; background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.integer {
+    color: white;
+    padding-top: 33vh;
+}
+header .integer b.integer-title, header .donce .donce-content .card .card-content .donce-word,
+.news .our-news .our-news-title b.our-news-word ,.news .our-news .cards .card .card-content b.word
+,.news .news-letter .news-letter-content b ,.learn-more .learn-more-content .tea .card-content b.word 
+ {font-size: 24px;}
+header .donce{width: 100%}
+header .donce .card-donce-content {
+    background: transparent;
+    width: 100%;
+    margin: 16px;
+    border: 3px solid #D05744;
+    text-align: center;
+    position: relative;
+    color: white;
+    padding-bottom: 171px;}
+header .card-content {
+    transform: translate(0, 100%);
+}
+header .donce .card-donce-content  .card-image{transform: translate(-50%,8px);
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;}
+header .donce .card-donce-content  .card-circle {
+    transform: translate(25%, 30vh);
+    width: 15%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: #D05744;}
+img {
+    overflow: hidden;}
+
+ .our-news {margin-top: 10vh;
+    width: 100%;}
+.our-news-title.text-center {
+    margin-bottom: 5vh;}
+ .our-news .our-news-title b:hover{border: 3px solid #D05744;
+    border-top: none; border-right: none; border-left: none; cursor: pointer;}
+ .our-news .cards{width: 100%; display: flex;}
+ .our-news .cards .card{ margin-bottom: 5vh;
+    border: 3px solid #D05744;
+    text-align: center;
+    position: relative;
+    border-radius: 13px;}
+ .our-news .cards .card .card-image{height: 50%;
+        overflow: hidden;border-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        width: 100%;}
+ .our-news .cards .card .learn-more-button button {margin-bottom: 4vh;
+    font-size: 17px;
+    padding: 9px;
+    border: none;
+    background: #ff553a;
+    color: white;
+    border-radius: 6px;}
+ .our-news .cards .card .line{position: absolute;
+    left: -3px;
+    width: 23%;
+    height: 20%;
+    border: 2px dashed white;
+    border-radius: 13px;
+    bottom: -3px;
+    border-right: none;
+    border-top: none;}
+ .news-letter{height: 59vh; width: 100%;
+    background: url(../images/Untitled-1.png);
+    background-attachment: fixed;     margin-bottom: 0;
+    border-radius: 0; background-repeat: no-repeat;
+    background-size: 100% 100%;}
+.news-letter-content.text-center {
+    transform: translate(-50%, 100%);
+    position: relative;
+    left: 50%;}
+ .learn-more{width: 100%;     margin-top: 16vh;}
+ .learn-more .learn-more-content .tea
+    {position: relative; margin-bottom: 5vh}
+.learn-more .learn-more-content .tea .card-image img {
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;}
+.learn-more .learn-more-content .tea .learn-more-button button{  font-size: 17px;
+    padding: 15px;
+    background: #ff553a;
+    color: white;
+    border-radius: 32px;
+    border: none;}
+header .donce .card-donce-content .card-image img:hover , .our-news .cards .card .card-image img:hover ,
+.learn-more .learn-more-content .tea .card-image img:hover{transform: scale(0.9); cursor: pointer;}
+ .our-news .cards .card .learn-more-button button:hover ,
+.learn-more .learn-more-content .tea .learn-more-button button:hover {transform: translateY(1vh); cursor: pointer;
+    box-shadow: 0px 5px #888888;  }
+
+
+
+
+
